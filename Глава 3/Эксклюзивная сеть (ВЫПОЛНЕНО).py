@@ -21,7 +21,7 @@ elif username == "S. Miyamoto" and password == "Mariobros":
 elif username == "W. Wright" and password == "thesims":
     print ('Как дела, Уилл?')
     security = 3
-elif username == "guest" and password == "guest":
+elif username == "guest" or password == "guest":
     print ('Добро пожаловать к нам в гости!')
     security = 1
 else:
