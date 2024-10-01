@@ -17,7 +17,7 @@ while word:
     jumble += word[position]
     word = word[:position] + word [(position +1):]
 # Создадим цикл, чтобы отсчет шел с нулевой позиции
-counter =-1
+counter = -1
 for x in WORDS:
     counter += 1
     if x == correct:
@@ -41,6 +41,7 @@ guess = input("\nПопробуйте отгадать исходное слов
 bonus = 10
 # Пишем цикл, который будет отнимать по 1 из бонуса до тех пор,
 # пока игрок не выиграет или не проиграет
+
 while guess != correct and guess != "":
     print ('К сожалению, вы не правы. Подсказка: ', help[help_position])
     bonus -= 1
